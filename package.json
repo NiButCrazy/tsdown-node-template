@@ -1,5 +1,5 @@
 {
-  "name": "tsdown-node-tamplate",
+  "name": "tsdown-node-template",
   "private": false,
   "description": "a tsdown node template",
   "type": "module",
@@ -7,19 +7,19 @@
   "author": "Ni But Crazy",
   "main": "dist/index.js",
   "license": "MIT",
-  "homepage": "https://github.com/NiButCrazy/tsdown-node-tamplate",
+  "homepage": "https://github.com/NiButCrazy/tsdown-node-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NiButCrazy/tsdown-node-tamplate.git"
+    "url": "https://github.com/NiButCrazy/tsdown-node-template.git"
   },
   "bugs": {
-    "url": "https://github.com/NiButCrazy/tsdown-node-tamplate/issues"
+    "url": "https://github.com/NiButCrazy/tsdown-node-template/issues"
   },
   "keywords": [
     "template"
   ],
   "bin": {
-    "tsdown-node-tamplate": "dist/index.js"
+    "tsdown-node-template": "dist/index.js"
   },
   "pnpm": {
     "onlyBuiltDependencies": ["esbuild"]

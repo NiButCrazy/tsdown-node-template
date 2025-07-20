@@ -1,35 +1,11 @@
-# tsdown-starter
+# Tsdown Node Template 创建模板
 
-A starter for creating a tsdown package.
+个人自用
 
-## Development
+## 安装使用
 
-- Install dependencies:
-
-```bash
-pnpm install
+```shell
+npm create nbc-app < projectName| 可选 >
 ```
 
-- Run the unit tests:
-
-```bash
-pnpm test
-```
-
-- Build the library:
-
-```bash
-pnpm build
-```
-
-## Sponsors
-
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg'/>
-  </a>
-</p>
-
-## License
-
-[MIT](./LICENSE) License © 2025 [三咲智子 Kevin Deng](https://github.com/sxzz)
+> 当然也可以直接克隆项目
