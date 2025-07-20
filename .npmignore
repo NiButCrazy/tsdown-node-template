@@ -1,0 +1,14 @@
+/.github
+/coverage
+/scripts
+/tests
+.markdownlintrc
+.travis.yml
+/.idea
+/src
+/public/snap
+codecov.yml
+desktop.ini
+tsconfig.json
+tsdown.config.ts
+vitest.config.ts

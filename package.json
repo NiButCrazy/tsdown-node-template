@@ -1,0 +1,44 @@
+{
+  "name": "tsdown-node-tamplate",
+  "private": false,
+  "description": "a tsdown node template",
+  "type": "module",
+  "version": "0.0.0",
+  "author": "Ni But Crazy",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/NiButCrazy/tsdown-node-tamplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NiButCrazy/tsdown-node-tamplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NiButCrazy/tsdown-node-tamplate/issues"
+  },
+  "keywords": [
+    "template"
+  ],
+  "bin": {
+    "tsdown-node-tamplate": "dist/index.js"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
+  "scripts": {
+    "run": "node ./dist/index.js",
+    "build": "tsdown --dts",
+    "dev": "tsdown --watch ./src",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "ora": "^8.2.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "tsdown": "^0.12.9",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4",
+    "nbc-auto-changelog": "^1.0.3"
+  }
+}
