@@ -28,7 +28,8 @@
     "run": "node ./dist/index.js",
     "build": "tsdown --dts",
     "dev": "tsdown --watch ./src",
-    "test": "vitest"
+    "test": "vitest",
+    "version": "nbc-auto-changelog -p && git add CHANGELOG.md"
   },
   "dependencies": {
     "ora": "^8.2.0",
