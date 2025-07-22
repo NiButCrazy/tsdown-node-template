@@ -22,12 +22,14 @@
     "tsdown-node-template": "dist/index.js"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild"]
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   },
   "scripts": {
     "run": "node ./dist/index.js",
     "build": "tsdown --dts",
-    "dev": "tsdown --watch ./src",
+    "dev": "tsdown --watch --sourcemap ./src",
     "test": "vitest",
     "version": "nbc-auto-changelog -p && git add CHANGELOG.md"
   },
@@ -37,9 +39,9 @@
   },
   "devDependencies": {
     "@types/node": "^24.0.15",
+    "nbc-auto-changelog": "^1.0.4",
     "tsdown": "^0.12.9",
     "typescript": "^5.8.3",
-    "vitest": "^3.2.4",
-    "nbc-auto-changelog": "^1.0.3"
+    "vitest": "^3.2.4"
   }
 }
