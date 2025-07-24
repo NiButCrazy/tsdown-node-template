@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import ora, { Color } from 'ora'
-import { myFunction } from './bin'
+import { myFunction } from './bin.ts'
 
 
 const spinner = ora(myFunction())

@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="开发预览" type="NodeJSConfigurationType" path-to-js-file="index.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/src">
+    <method v="2" />
+  </configuration>
+</component>
