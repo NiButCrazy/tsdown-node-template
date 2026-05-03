@@ -3,7 +3,7 @@
   "private": false,
   "description": "a tsdown node template",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Ni But Crazy",
   "main": "dist/index.js",
   "license": "MIT",
